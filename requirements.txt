@@ -1,5 +1,7 @@
+wheel
+tqdm
 pandas
-numpy
+numpy<1.23.0
 jupyter
 plotly
 statsmodels
@@ -7,3 +9,8 @@ matplotlib
 jupyterlab
 black[jupyter]
 kaggle
+statsforecast
+scikit-learn
+prophet==1.0
+pystan
+neuralprophet
