@@ -8,7 +8,7 @@ Workshop for CS students
 
 First of all, you should have `python` and `pip` installed. You can do this in a number of ways. For mac users, [Homebrew](https://brew.sh/index_nl) is a pretty nifty package manager. The windows variant would be [Chocolatey](https://chocolatey.org). You can just go to [https://www.python.org](https://www.python.org), but where's the fun in that?
 
-This workshop was built in `python3.9`. If you use a later version of python, you may run into trouble with some of the packages (particularly `prophet` and `pystan`.
+This workshop was built in `python3.9`. If you use a later version of python, you may run into trouble with some of the packages (particularly `prophet` and `pystan`).
 To set up your environment, you should only have to go through the following steps.
 
 Clone this environment (any way you want). This is how you'd do it though the terminal. First navigate to a location of your choice, then enter:
