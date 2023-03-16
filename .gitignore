@@ -1,5 +1,4 @@
 .DS_Store
-.DS_Store
 .idea/
 data/cleaned.csv
 notebooks/lightning_logs/
@@ -133,3 +132,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/mlruns/
