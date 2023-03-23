@@ -37,7 +37,7 @@ The project makes use of jupyter notebooks. Make sure your virtual environment i
 
 > $`python3 -m ipykernel install --user --name=*your_virtual_environment_name*`
 
-You can use an IDE if you want (Pycharm and VSCode have support/extensions to make that process painless), or you can run `jupyter` as a local service using
+You can use an IDE if you want (Pycharm and VSCode have support/extensions to make that process 'painless'), or you can run `jupyter` as a local service using
 
 > $`jupyter lab`
 
