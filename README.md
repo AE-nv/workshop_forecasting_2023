@@ -53,5 +53,13 @@ In the second of these notebooks, you should be able to visit the `mlflow ui` us
 
 If the steps above fail, or you're lazy, you can try the links below to find the same notebooks hosted on colab. Note that MLFlow won't work, here.
 
+<font color='red'>Duplicate the notebooks first!</font>
+
+#### Student versions
 1. EDA - [link](https://colab.research.google.com/drive/1y34B94m17Xg4Gn4lHMepq7V6FmVrvKuo?usp=sharing)
 2. Forecasting - [link](https://colab.research.google.com/drive/11NLtb9YinaDa0VqVQ8wxpaYGbl8J1ouG?usp=sharing)
+
+
+#### Reference versions
+1. EDA - [link](https://colab.research.google.com/drive/1cLdW2mW2vxnp3Lmp16MNvPdVCXYDly3t?usp=sharing)
+2. Forecasting - [link](https://colab.research.google.com/drive/1ePpDxz2FgaxRTTBD2OecAa1NWdrJBTvx?usp=sharing)
