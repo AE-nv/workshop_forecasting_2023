@@ -43,7 +43,7 @@ You can use an IDE if you want (Pycharm and VSCode have support/extensions to ma
 
 > `$ jupyter lab`
 
-If you get an error message about not finding the kernel, don't worry about that. Just make sure your kernel is set to the virtual environment you created (**ae\_ws\_env**), and you should be good to go! The notebooks are in a separate folder. Find them and go to the first notebook: [1_EDA-student.ipynb](notebooks/1_EDA-student.ipynb). Afterwards, you can go to the second notebook: [2\_forecasting\_mlflow-student.ipynb](notebooks/2_forecasting_mlflow-student.ipynb). 
+If you get an error message about not finding the kernel, don't worry about that. Just make sure your kernel is set to the virtual environment you created (**ae\_ws\_env**), and you should be good to go! The notebooks are in a separate folder. Find them and go to the first notebook: [1_EDA-student.ipynb](notebooks/ds/1_EDA-student.ipynb). Afterwards, you can go to the second notebook: [2\_forecasting\_mlflow-student.ipynb](notebooks/ds/2_forecasting_mlflow-student.ipynb). 
 
 In the second of these notebooks, you should be able to visit the `mlflow ui` using that very command. **Don't terminate the jupyter server!** Open a new terminal window, and make sure to navigate to your project directory. Then source your virtual environment (see above), as this is where mlflow was installed. As you go through the notebook, you'll see the list of runs fill up, and you can play around with visualizing the results. Don't forget to make the metrics columns visible (top right).
 
@@ -56,10 +56,12 @@ If the steps above fail, or you're lazy, you can try the links below to find the
 <font color='red'>Duplicate the notebooks first!</font>
 
 #### Student versions
-1. EDA - [link](https://colab.research.google.com/drive/1y34B94m17Xg4Gn4lHMepq7V6FmVrvKuo?usp=sharing)
-2. Forecasting - [link](https://colab.research.google.com/drive/11NLtb9YinaDa0VqVQ8wxpaYGbl8J1ouG?usp=sharing)
+1. DE - [link](https://colab.research.google.com/drive/1jCPDZ0j9Oc0-9RJizA9Q_2XlgJFJ82ut#scrollTo=ZnFjheEV6sTM)
+2. EDA - [link](https://colab.research.google.com/drive/1y34B94m17Xg4Gn4lHMepq7V6FmVrvKuo?usp=sharing)
+3. Forecasting - [link](https://colab.research.google.com/drive/11NLtb9YinaDa0VqVQ8wxpaYGbl8J1ouG?usp=sharing)
 
 
 #### Reference versions
-1. EDA - [link](https://colab.research.google.com/drive/1cLdW2mW2vxnp3Lmp16MNvPdVCXYDly3t?usp=sharing)
-2. Forecasting - [link](https://colab.research.google.com/drive/1ePpDxz2FgaxRTTBD2OecAa1NWdrJBTvx?usp=sharing)
+1. DE - [link](https://colab.research.google.com/drive/11tazFp7x6X0a4Y3rBmx1mUZpfZ5_JTw_#scrollTo=hV44hgQPBXIS)
+2. EDA - [link](https://colab.research.google.com/drive/1cLdW2mW2vxnp3Lmp16MNvPdVCXYDly3t?usp=sharing)
+3. Forecasting - [link](https://colab.research.google.com/drive/1ePpDxz2FgaxRTTBD2OecAa1NWdrJBTvx?usp=sharing)
