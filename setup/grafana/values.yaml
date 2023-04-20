@@ -369,7 +369,7 @@ initChownData:
 
 # Administrator credentials when not using an existing secret (see below)
 adminUser: admin
-# adminPassword: strongpassword
+adminPassword: strongpassword
 
 # Use an existing secret for the admin user.
 admin:
@@ -537,7 +537,7 @@ datasources:
     datasources:
     - name: Prometheus
       type: prometheus
-      url: prometheus-server
+      url: http://prometheus-server.ceneka.svc.cluster.local:80
       access: proxy
       basicAuth: false
       isDefault: true
@@ -712,6 +712,8 @@ grafana.ini:
     check_for_updates: true
   log:
     mode: console
+  smtp:
+    enabled: true
   grafana_net:
     url: https://grafana.net
   server:

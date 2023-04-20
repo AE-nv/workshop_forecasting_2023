@@ -37,7 +37,7 @@ server:
     #   - prometheus.domain.com
     #   - domain.com/prometheus
 
-    path: /prometheus
+    path: "/prometheus"
 
     # pathType is only for k8s >= 1.18
     pathType: Prefix
@@ -162,6 +162,7 @@ server:
     ## If false, no Service will be created for the Prometheus server
     ##
     enabled: true
+    type: LoadBalancer
 
 
 alertmanager:
@@ -201,6 +202,9 @@ prometheus-pushgateway:
   ## If false, pushgateway will not be installed
   ##
   enabled: true
+
+  service:
+    type: LoadBalancer
 
   # Optional service annotations
   serviceAnnotations:
