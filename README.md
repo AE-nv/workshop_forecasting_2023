@@ -12,6 +12,8 @@ There's two ways of approaching this segment. If you want to be more hands-on, y
 
 ### Local setup
 
+#### 1. Mac
+
 First of all, you should have `python` and `pip` installed. You can do this in a number of ways. For mac users, [Homebrew](https://brew.sh/index_nl) is a pretty nifty package manager. The windows variant would be [Chocolatey](https://chocolatey.org). You can just go to [https://www.python.org](https://www.python.org), but where's the fun in that?
 
 This workshop was built in `python3.9`. If you use a later version of python, you may run into trouble with some of the packages (particularly `prophet` and `pystan`).
@@ -48,12 +50,50 @@ If you get an error message about not finding the kernel, don't worry about that
 In the second of these notebooks, you should be able to visit the `mlflow ui` using that very command. **Don't terminate the jupyter server!** Open a new terminal window, and make sure to navigate to your project directory. Then source your virtual environment (see above), as this is where mlflow was installed. As you go through the notebook, you'll see the list of runs fill up, and you can play around with visualizing the results. Don't forget to make the metrics columns visible (top right).
 
 
+#### 2. Windows
+
+The approach for Windows is very similar, but a little more convoluted (because Windows).
+
+Open CMD as admin, and enter the following command to install chocolatey (another package manager):
+
+> `$ @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"`
+
+Check if it works with:
+
+> `$ choco -?`
+
+Now check your python version: 
+
+> `$ python –version` (or python3 –version)
+
+If the version does not match 3.9, enter: 
+
+> `$ choco install python –version=3.9`
+
+Now run commands with `py -3.9 X`.
+
+To create a virtual environment, go to the folder where you want to clone the repository, and type:
+
+> `$ py -3.9 -m venv ae_ws_env`
+
+This creates your virtual environment, which you can activate by calling
+
+>`$ ae_ws_env/Scripts/activate`
+
+The other steps mimick the ones described in the mac section: 
+
+1. clone the repo with the git command
+2. cd into the newly created folder
+3. pip install the requirements
+4. register the kernel
+
+🚀 Good to go!
 
 ### Colab
 
 If the steps above fail, or you're lazy, you can try the links below to find the same notebooks hosted on colab. Note that MLFlow won't work, here.
 
-<font color='red'>Duplicate the notebooks first!</font>
+<font color='red'>**Duplicate the notebooks first!**</font>
 
 #### Student versions
 1. EDA - [link](https://colab.research.google.com/drive/1y34B94m17Xg4Gn4lHMepq7V6FmVrvKuo?usp=sharing)
