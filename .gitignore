@@ -1,7 +1,7 @@
 .DS_Store
 .idea/
-notebooks/lightning_logs/
-Notebooks/iframe_figures/
+notebooks/*/lightning_logs/
+Notebooks/*/iframe_figures/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
